@@ -1,4 +1,4 @@
-package edu.anhanguera.poo.aula03;
+package edu.anhanguera.prc.aula02;
 
 public class Exemplo05 {
 
