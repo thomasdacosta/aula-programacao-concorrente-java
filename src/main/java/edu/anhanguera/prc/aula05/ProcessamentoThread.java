@@ -6,14 +6,13 @@ import java.util.Scanner;
 
 public class ProcessamentoThread implements Runnable {
 
-	private Socket clientet = null;
+	private Socket cliente = null;
 
-	@Override
 	public void run() {
-		System.out.println("[PROCESSO] - Executando processamento do cliente " + clientet.getInetAddress().getHostAddress());
+		System.out.println("[PROCESSO] - Executando processamento do cliente " + cliente.getInetAddress().getHostAddress());
 		Scanner scanner = null;
 		try {
-			scanner = new Scanner(clientet.getInputStream());
+			scanner = new Scanner(cliente.getInputStream());
 			while (scanner.hasNextLine()) {
 				System.out.println("[PROCESSO] - Mensagem Recebida: " + scanner.nextLine());
 			}
@@ -25,11 +24,11 @@ public class ProcessamentoThread implements Runnable {
 	}
 
 	public Socket getSocket() {
-		return clientet;
+		return cliente;
 	}
 
 	public void setSocket(Socket socket) {
-		this.clientet = socket;
+		this.cliente = socket;
 	}
 
 }
