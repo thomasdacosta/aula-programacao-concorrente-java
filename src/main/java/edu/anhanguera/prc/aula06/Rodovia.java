@@ -10,7 +10,6 @@ public class Rodovia implements Runnable {
 		this.carro2 = objeto2;
 	}
 
-	@Override
 	public void run() {
 		System.out.println(Thread.currentThread().getName() + " - 1 - Lock no " + carro1);
 		synchronized (carro1) {
