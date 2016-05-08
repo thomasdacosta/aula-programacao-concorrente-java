@@ -7,3 +7,5 @@ Código-fonte do curso de Programação Concorrente. Desenvolvido no Eclipse, ut
 **AULA 03** - Threads<br>
 **AULA 04** - Sincronização<br>
 **AULA 05** - Comunicação entre Processos<br>
+**AULA 06** - Deadlock<br>
+**AULA 07** - Memória Compartilhada<br>
