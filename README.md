@@ -1,4 +1,5 @@
 **Programação Concorrente - Anhanguera**
+======================================
 
 ![alt tag](https://travis-ci.org/thomasdacosta/programacao-concorrente.anhanguera-JAVA.svg?branch=master)
 
