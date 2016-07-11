@@ -1,6 +1,6 @@
 **Programação Concorrente - Anhanguera**
 
-https://travis-ci.org/thomasdacosta/programacao-concorrente.anhanguera-JAVA.svg?branch=master
+![alt tag](https://travis-ci.org/thomasdacosta/programacao-concorrente.anhanguera-JAVA.svg?branch=master)
 
 Código-fonte do curso de Programação Concorrente. Desenvolvido no Eclipse, utilizando a linguagem de programação Java.
 
